@@ -1,0 +1,109 @@
+{
+    "carousels_datas": 
+    [
+        {
+            "title": "Clients",
+            "count": 20,
+            "icon": "/img/Clients.png"
+        },
+        {
+            "title": "New clients",
+            "count": 200,
+            "icon": "/img/new_clients.png"
+        },
+        {
+            "title": "Active Clients",
+            "count": 67,
+            "icon": "/img/active_clients.png"
+        },
+        {
+            "title": "Inactive Clients",
+            "count": 209,
+            "icon": "/img/Clients.png"
+        },
+        {
+            "title": "Free Trial",
+            "count": 20,
+            "icon": "/img/free_trial.png"
+        },
+        {
+            "title": "New cases",
+            "count": 50,
+            "icon": "/img/Clients.png"
+        },
+        {
+            "title": "Case in progress",
+            "count": 50,
+            "icon": "/img/Clients.png"
+        },
+        {
+            "title": "Delivered Cases",
+            "count": 30,
+            "icon": "/img/Clients.png"
+        },
+        {
+            "title": "Case in out",
+            "count": 30,
+            "icon": "/img/Clients.png"
+        }
+        
+       
+    ],
+    "charts_data":[
+       {"title":"Analytics",
+       "chart_type":"line",
+
+        "tabs_details":
+        [{"label":"Cases","count":250,"percentage":"14%","is_down":false},
+        {"label":"Pages","count":78000,"percentage":"22%","is_down":false},
+        {"label":"Billed Hours","count":1500,"percentage":"9%","is_down":true},
+        {"label":"BIlled Amount","count":55500,"percentage":"4%","is_down":false},
+        {"label":"Quality Score","count":"97%","percentage":"1%","is_down":false}] ,
+        "data":[
+            {
+              "name": "High - 2013",
+              "data": [10, 21, 24, 38, 20, 31, 13]
+            },
+            {
+              "name": "Low - 2013",
+              "data": [0, 11, 14, 18, 10, 13, 13]
+            }
+          ]
+
+       },
+       {"title":"Revenue Update",
+       "chart_type":"donut",
+     
+       "data": [45000, 7500, 2000, 500]
+
+      },
+      {"title":"Sales Report",
+      "chart_type":"bar",
+     
+      "data": [{
+        "data": [400, 430, 448, 500, 540, 370, 690, 1100, 1200, 1380,340,130]
+      }]
+
+
+     },
+     {"title":"Unpaid Status",
+      "table_header":["Client Name","Amount"],
+      "table_row_data":[
+        {"name":"John Abraham","amount":"$1800"},
+        {"name":"Robert Browney","amount":"$1300"},
+        {"name":"Kennedy Finn","amount":"$1800"},
+        {"name":"Dwayne Johnson","amount":"$1800"},
+        {"name":"Chris Hemsworth","amount":"$1800"},
+        {"name":"Steven Smith","amount":"$1800"},
+        {"name":"Travis Head","amount":"$1800"},
+        {"name":"John Abraham","amount":"$1800"},
+        {"name":"Robert Browney","amount":"$1300"},
+        {"name":"Kennedy Finn","amount":"$1800"}
+      
+
+    ]
+
+
+     }
+    ]
+}

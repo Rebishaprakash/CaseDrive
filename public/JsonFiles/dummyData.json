@@ -1,0 +1,293 @@
+{
+    "medical_records": [
+      {
+        "title": "Medical Chronology  ",
+        "key": "medical_chronology",
+        "addl_key": "(Includes free addons)",
+        "is_disable": ["sorting_indexing", "aps_summary", "life_care_planning"]
+      },
+      {
+        "title": "Medical Record Retrieval",
+        "key": "medical_record_retrieval"
+      },
+      {
+        "title": "Narrative Summary",
+        "key": "narrative_summary",
+        "addl_key": "(Includes free addons)",
+        "is_disable": ["sorting_indexing", "aps_summary", "life_care_planning"]
+      },
+      {
+        "title": "APS Summary",
+        "key": "aps_summary",
+        "is_disable": [
+          "medical_chronology",
+          "deposition_summary",
+          "expert_medical_opinion",
+          "sorting_indexing",
+          "narrative_summary",
+          "demand_letter",
+          "medical_billing_summary",
+          "life_care_planning"
+        ]
+      },
+      {
+        "title": "Deposition Summary",
+        "key": "deposition_summary",
+        "is_disable": ["sorting_indexing", "aps_summary", "life_care_planning"]
+      },
+      {
+        "title": "Life Care Planning",
+        "key": "life_care_planning",
+        "is_disable": [
+          "medical_chronology",
+          "deposition_summary",
+          "expert_medical_opinion",
+          "sorting_indexing",
+          "aps_summary",
+          "narrative_summary",
+          "demand_letter",
+          "medical_billing_summary"
+        ]
+      },
+      {
+        "title": "Demand Letter",
+        "key": "demand_letter",
+        "is_disable": ["sorting_indexing", "aps_summary", "life_care_planning"]
+      },
+      {
+        "title": "Expert Medical Opinion",
+        "key": "expert_medical_opinion",
+        "is_disable": ["sorting_indexing", "aps_summary", "life_care_planning"]
+      },
+      {
+        "title": "Sorting & Indexing",
+        "key": "sorting_indexing",
+        "is_disable": [
+          "medical_chronology",
+          "deposition_summary",
+          "expert_medical_opinion",
+          "aps_summary",
+          "narrative_summary",
+          "demand_letter",
+          "medical_billing_summary",
+          "life_care_planning"
+        ]
+      },
+      {
+        "title": "Medical Billing Summary",
+        "key": "medical_billing_summary",
+        "is_disable": ["sorting_indexing", "aps_summary", "life_care_planning"]
+      }
+    ],
+    "special_reports": [
+      {
+        "title": "Treatment Timeline",
+        "key": "treatment_timeline",
+        "is_free": true,
+        "auto_enabled": ["medical_chronology", "narrative_summary"],
+        "is_disable": [
+          "expert_medical_opinion",
+          "sorting_indexing",
+          "aps_summary",
+          "demand_letter",
+          "medical_billing_summary",
+          "life_care_planning"
+        ]
+      },
+      {
+        "title": "Missing Record Identification",
+        "key": "missing_record_identification",
+        "is_free": true,
+        "auto_enabled": [
+          "medical_chronology",
+          "deposition_summary",
+          "expert_medical_opinion",
+          "aps_summary",
+          "narrative_summary",
+          "demand_letter",
+          "medical_billing_summary",
+          "life_care_planning"
+        ],
+        "is_disable": ["sorting_indexing"]
+      },
+      {
+        "title": "Medical Synopsis",
+        "key": "medical_synopsis",
+        "is_disable": [
+          "deposition_summary",
+          "aps_summary",
+          "medical_billing_summary",
+          "life_care_planning",
+          "expert_medical_opinion",
+          "sorting_indexing",
+          "demand_letter"
+        ]
+      },
+      {
+        "title": "Pain & Suffering Chart",
+        "key": "pain_suffering_chart",
+        "is_disable": [
+          "deposition_summary",
+          "aps_summary",
+          "medical_billing_summary",
+          "life_care_planning",
+          "sorting_indexing",
+          "demand_letter"
+        ]
+      },
+      {
+        "title": "Med-A-Word",
+        "key": "Med_A_Word",
+        "is_disable": [
+          "deposition_summary",
+          "aps_summary",
+          "medical_billing_summary",
+          "life_care_planning",
+          "expert_medical_opinion",
+          "sorting_indexing",
+          "demand_letter"
+        ]
+      },
+      {
+        "title": "Future Medical Cost Projection",
+        "key": "future_medical_cost_projection",
+        "is_disable": [
+          "deposition_summary",
+          "aps_summary",
+          "sorting_indexing",
+          "demand_letter"
+        ]
+      },
+      {
+        "title": "Special Injury Report",
+        "key": "special_injury_report",
+        "is_disable": [
+          "deposition_summary",
+          "aps_summary",
+          "medical_billing_summary",
+          "life_care_planning",
+          "sorting_indexing",
+          "demand_letter"
+        ]
+      },
+      {
+        "title": "Strength & Weakness Report",
+        "key": "strength_eeakness_report",
+        "is_disable": [
+          "deposition_summary",
+          "aps_summary",
+          "medical_billing_summary",
+          "life_care_planning",
+          "sorting_indexing",
+          "demand_letter"
+        ]
+      }
+    ],
+    "technical_services": [
+      {
+        "title": "Indexing",
+        "key": "indexing",
+        "is_free": true,
+        "auto_enabled": ["medical_chronology"],
+        "is_disable": [
+          "deposition_summary",
+          "expert_medical_opinion",
+          "aps_summary",
+          "demand_letter",
+          "medical_record_retrieval",
+          "sorting_indexing",
+          "medical_billing_summary",
+          "life_care_planning"
+        ]
+      },
+      {
+        "title": "Sorting",
+        "key": "Sorting",
+        "is_disable": [
+          "deposition_summary",
+          "expert_medical_opinion",
+          "aps_summary",
+          "demand_letter",
+          "medical_record_retrieval",
+          "sorting_indexing",
+          "medical_billing_summary",
+          "life_care_planning"
+        ]
+      },
+      {
+        "title": "Duplicate Record Identification",
+        "key": "duplicate_record_identification",
+        "is_disable": [
+          "deposition_summary",
+          "expert_medical_opinion",
+          "aps_summary",
+          "demand_letter",
+          "medical_record_retrieval",
+          "sorting_indexing",
+          "life_care_planning"
+        ]
+      },
+      {
+        "title": "Duplicate Record Extraction",
+        "key": "duplicate_record_extraction",
+        "is_disable": [
+          "deposition_summary",
+          "expert_medical_opinion",
+          "aps_summary",
+          "demand_letter",
+          "medical_record_retrieval",
+          "sorting_indexing",
+          "life_care_planning"
+        ]
+      },
+      {
+        "title": "Bookmarking",
+        "key": "bookmarking",
+        "is_disable": [
+          "deposition_summary",
+          "expert_medical_opinion",
+          "aps_summary",
+          "demand_letter",
+          "medical_billing_summary",
+          "medical_record_retrieval",
+          "sorting_indexing",
+          "life_care_planning"
+        ]
+      },
+      {
+        "title": "Other Patient Record Extraction",
+        "key": "other_patient_record_extraction",
+        "auto_enabled": [
+          "medical_chronology",
+          "deposition_summary",
+          "expert_medical_opinion",
+          "aps_summary",
+          "narrative_summary",
+          "demand_letter",
+          "medical_billing_summary",
+          "medical_record_retrieval",
+          "life_care_planning"
+        ],
+        "is_disable": ["sorting_indexing"]
+      },
+      {
+        "title": "Other Language Translation",
+        "key": "other_language_translation",
+        "is_disable": ["medical_billing_summary", "sorting_indexing"]
+      },
+      {
+        "title": "Hyperlinks",
+        "key": "hyperlinks",
+        "is_free": true,
+        "auto_enabled": ["medical_chronology"],
+        "is_disable": [
+          "aps_summary",
+          "demand_letter",
+          "deposition_summary",
+          "expert_medical_opinion",
+          "sorting_indexing",
+          "life_care_planning"
+        ]
+      }
+    ]
+  }
